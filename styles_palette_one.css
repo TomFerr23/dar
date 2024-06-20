@@ -1,0 +1,49 @@
+body {
+    font-family: 'Gilroy', sans-serif;
+    background-color: #1D5894;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.video-container {
+    display: none;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #F35F47;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D44A3B;
+}
